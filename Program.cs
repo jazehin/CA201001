@@ -32,24 +32,24 @@ namespace CA201001
             Console.ReadKey();
 
             //visszaszamol
-            /*for (int i = 10; i > 0; i--)
+            for (int i = 10; i > 0; i--)
             {
                 Console.Clear();
                 Console.WriteLine($"{i}...");
                 Thread.Sleep(1000);
-            }*/
+            }
             //Environment.Exit(0);
             //bezáródáshoz a felső utasítást uncommentelni kell, azért raktam így, mert kifejezetten előnytelen ha bezáródik már a 3. feladatnál
 
             //nev_mozog
-            /*for (int i = 0; i < Console.WindowWidth - name.Length; i++)
+            for (int i = 0; i < Console.WindowWidth - name.Length; i++)
             {
                 Console.Clear();
                 Console.SetCursorPosition(i, 0);
                 Console.Write(name);
                 Thread.Sleep(50);
             }
-            Console.ReadKey();*/
+            Console.ReadKey();
 
             //randomcsillag
             Console.Clear();
